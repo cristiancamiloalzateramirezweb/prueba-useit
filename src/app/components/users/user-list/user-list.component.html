@@ -1,0 +1,38 @@
+<div *ngIf="isLoading" class="loader">
+  <div *ngIf="errorMessage" class="error-message">
+    <p>{{ errorMessage }}</p>
+  </div>
+  <div *ngIf="!errorMessage" class="spinner"></div>
+</div>
+
+<div class="container-table" *ngIf="!isLoading && !errorMessage">
+  <h2>{{title}}</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Last Name</th>
+        <th>Age</th>
+        <th>Profession</th>
+        <th>Option</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of users; let i = index;">
+          <td>{{ user.id }}</td>
+          <td>{{ user.name }}</td>
+          <td>{{ user.lastname }}</td>
+          <td>{{ user.age }}</td>
+          <td>{{ user.profession }}</td>
+          <td>
+            <a [routerLink]="['/usuario', user.id]">Details</a>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="footer">
+  <p>&copy; Challenge by the Useit team. Developed by Cristian Camilo Alzate Ramirez.</p>
+</div>

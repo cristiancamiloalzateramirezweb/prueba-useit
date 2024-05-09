@@ -1,0 +1,114 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "cover": "../../../../assets/juan.png",
+      "username": "juanperez",
+      "name": "Juan",
+      "lastname": "Pérez",
+      "profession": "Doctor",
+      "age": 30,
+      "email": "juan@example.com",
+      "password": "juan"
+    },
+    {
+      "id": "2",
+      "cover": "../../../../assets/maria.png",
+      "username": "mariagomez",
+      "name": "María",
+      "lastname": "Gómez",
+      "profession": "Dentist",
+      "age": 25,
+      "email": "maria@example.com",
+      "password": "maria"
+    },
+    {
+      "id": "3",
+      "cover": "../../../../assets/carlos.png",
+      "username": "carloslopez",
+      "name": "Carlos",
+      "lastname": "López",
+      "profession": "Veterinary",
+      "age": 35,
+      "email": "carlos@example.com",
+      "password": "carlos"
+    },
+    {
+      "id": "4",
+      "cover": "../../../../assets/lina.png",
+      "username": "linamartinez",
+      "name": "Lina",
+      "lastname": "Martínez",
+      "profession": "Engineer",
+      "age": 28,
+      "email": "lina@example.com",
+      "password": "lina"
+    },
+    {
+      "id": "5",
+      "cover": "../../../../assets/pedro.png",
+      "username": "pedrosanchez",
+      "name": "Pedro",
+      "lastname": "Sánchez",
+      "profession": "Businessman",
+      "age": 40,
+      "email": "pedro@example.com",
+      "password": "pedro"
+    },
+    {
+      "id": "6",
+      "cover": "../../../../assets/ana.png",
+      "username": "anagarcia",
+      "name": "Ana",
+      "lastname": "García",
+      "profession": "Auditor",
+      "age": 33,
+      "email": "ana@example.com",
+      "password": "ana"
+    },
+    {
+      "id": "7",
+      "cover": "../../../../assets/miguel.png",
+      "username": "miguelrodriguez",
+      "name": "Miguel",
+      "lastname": "Rodríguez",
+      "profession": "Teacher",
+      "age": 22,
+      "email": "miguel@example.com",
+      "password": "miguel"
+    },
+    {
+      "id": "8",
+      "cover": "../../../../assets/sara.png",
+      "username": "sarafernandez",
+      "name": "Sara",
+      "lastname": "Fernández",
+      "profession": "Singer",
+      "age": 31,
+      "email": "sara@example.com",
+      "password": "sara"
+    },
+    {
+      "id": "9",
+      "cover": "../../../../assets/jorge.png",
+      "username": "jorgediaz",
+      "name": "Jorge",
+      "lastname": "Díaz",
+      "profession": "Doctor",
+      "age": 29,
+      "email": "jorge@example.com",
+      "password": "jorge"
+    },
+    {
+      "id": "10",
+      "cover": "../../../../assets/elena.png",
+      "username": "elenaruiz",
+      "name": "Elena",
+      "lastname": "Ruiz",
+      "profession": "Lawyer",
+      "age": 27,
+      "email": "elena@example.com",
+      "password": "elena"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+.container_form {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container_form .container {
+  background-color: #ffffff;
+  padding: 60px;
+  border-radius: 16px;
+  width: 400px;
+}
+
+.container_form .container h2 {
+  text-align: center;
+}
+
+.container_form .container p {
+  text-align: center;
+  font-weight: 400;
+  margin: 15px 0px 45px 0px;
+}
+
+.container_form .container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container_form .container form .error-message {
+  height: auto;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ffd3c0;
+  margin-top: 10px;
+}
+
+.container_form .container form .error-message p {
+  color: #ff8855;
+  text-align: left !important;
+  margin: 0px;
+}
+
+.container_form .container .input-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.container_form .container .input-container input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #cfcfcf;
+  outline: none;
+  transition: border-bottom-color 0.3s;
+}
+
+.container_form .container .input-container input:focus {
+  border-bottom-color: #ff9b71;
+}
+
+.container_form .container .input-container label {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  color: #cfcfcf;
+  transition: top 0.3s, font-size 0.3s, color 0.3s;
+}
+
+.container_form .container .input-container input:focus + label,
+.container_form .container .input-container input:not(:placeholder-shown) + label {
+  top: -12px;
+  font-size: 12px;
+  color: #ff9b71;
+}
+
+.container_form .container button {
+  background-color: #ff9b71;
+  color: #202020;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+.container_form .container button:hover {
+  background-color: #ff8855;
+}
+
+.container_form .footer {
+  margin-top: 30px;
+}
+
+.container_form .footer p {
+  font-weight: 600;
+  font-size: 10px;
+}
