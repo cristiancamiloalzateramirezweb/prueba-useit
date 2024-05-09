@@ -12,6 +12,7 @@ Este proyecto constituye una prueba técnica diseñada para la empresa Useit, ce
 - Se utiliza Git para el seguimiento de cambios.
 
 ### Herramientas de Desarrollo
+- Node.js `20.12.2`
 - json-server.
 
 ## Instalación
@@ -26,4 +27,4 @@ Este proyecto constituye una prueba técnica diseñada para la empresa Useit, ce
 9. Abre tu navegador web y navega a `http://localhost:4200` para ver la aplicación de Angular en ejecución.
    
 ## Uso
-1. Ingresa a: www.google.com
+1. Ingresa a: https://prueba-useit.vercel.app/
