@@ -21,7 +21,7 @@ Este proyecto constituye una prueba técnica diseñada para la empresa Useit, ce
 4. Ejecuta: `npm install` para instalar las dependencias del proyecto.
 5. Luego ejecuta `json-server --watch data.json --port 4201` en una terminal dentro de la carpeta del proyecto.
 6. Esto iniciara el servidor JSON y servira los datos del archivo `data.json`
-7. En otra terminal dentro de la misma carpeta del proyecto ejecuta `ng serve`.
+7. En otra terminal dentro de la misma carpeta del proyecto ejecuta `ng serve`
 8. Esto iniciará el servidor de desarrollo de Angular y servirá la aplicación en `http://localhost:4200`
 9. Abre tu navegador web y navega a `http://localhost:4200` para ver la aplicación de Angular en ejecución.
    
